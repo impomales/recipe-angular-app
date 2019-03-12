@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'recipe-shopping-app';
+  link: string
+
+  onEmit(navLink: string) {
+    this.link = navLink
+  }
 }
